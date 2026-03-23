@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "69bfd25bdd3f368e9eae7285"
+  },
+  "product_id": "HEADPHONES",
+  "name": "Sony WH-1000XM4 Noise Cancelling Headphones",
+  "category": "Electronics",
+  "price": 25000,
+  "specs": {
+    "voltage": "5V",
+    "battery_life": "30 hours",
+    "warranty_months": 24
+  },
+  "tags": [
+    "audio",
+    "wireless",
+    "bluetooth"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bfd3e8dd3f368e9eae728e"
+  },
+  "product_id": "TSHIRT",
+  "name": "Men's Cotton Polo T-Shirt",
+  "category": "Clothing",
+  "price": 899,
+  "variants": [
+    {
+      "size": "M",
+      "color": "Navy Blue",
+      "stock": 45
+    },
+    {
+      "size": "L",
+      "color": "Navy Blue",
+      "stock": 12
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "stock": 5
+    }
+  ],
+  "material": "100% Cotton",
+  "care_instructions": "Machine wash cold"
+},
+{
+  "_id": {
+    "$oid": "69bfd416dd3f368e9eae728f"
+  },
+  "product_id": "MILK",
+  "name": "Organic Almond Milk 1L",
+  "category": "Groceries",
+  "price": 350,
+  "expiry_date": "2024-11-15T00:00:00Z",
+  "nutritional_info": {
+    "calories_per_100ml": 15,
+    "sugar_g": 0,
+    "protein_g": 0.5
+  },
+  "is_vegan": true
+}]

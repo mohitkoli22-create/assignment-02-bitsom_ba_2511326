@@ -1,0 +1,4 @@
+## Database Recommendation
+For a patient management system, I strongly recommend MySQL.Healthcare data is fundamentally relational and requires strict data integrity. A patient system tracks entities like Patients, Doctors, Appointments, and Prescriptions. The relationships between these entities are well-defined. More importantly, MySQL adheres to ACID properties (Atomicity, Consistency, Isolation, Durability).
+MongoDB, being a NoSQL database, generally prioritizes the BASE model (Basically Available, Soft state, Eventual consistency).MongoDB is better suited for fraud detection as it is faster for huge logs,scales horizontally easily, and better at detecting the patterns.
+Hence, As main database for patient MySQL is better but for fraud detection combination of Mysql and MongoDB is better suited.
